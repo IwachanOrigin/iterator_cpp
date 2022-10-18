@@ -1,30 +1,20 @@
 
-set(main_src
+set(MAIN_SRC
   main.cpp
-  birthdaybase.h
-  birthdaybase.cpp
-  birthdaycakefactory.h
-  birthdaycakefactory.cpp
-  birthdaydecoration.h
-  birthdaydecoration.cpp
-  birthdayfruit.h
-  birthdayfruit.cpp
-  cakebase.h
-  decocakefactory.h
-  decoration.h
-  fruit.h
-  xmasbase.h
-  xmasbase.cpp
-  xmascakefactory.h
-  xmascakefactory.cpp
-  xmasdecoration.h
-  xmasdecoration.cpp
-  xmasfruit.h
-  xmasfruit.cpp
+  aggregate.h
+  aggregate.cpp
+  iterator.h
+  iterator.cpp
+  iteratormachine.h
+  iteratormachine.cpp
+  machine.h
+  machine.cpp
+  parts.h
+  parts.cpp
 )
 
 add_executable(
   ${PROJECT_NAME}
-  ${main_src}
+  ${MAIN_SRC}
 )
 
