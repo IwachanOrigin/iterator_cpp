@@ -2,9 +2,7 @@
 set(MAIN_SRC
   main.cpp
   aggregate.h
-  aggregate.cpp
   iterator.h
-  iterator.cpp
   iteratormachine.h
   iteratormachine.cpp
   machine.h

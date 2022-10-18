@@ -1,6 +1,7 @@
 
 #include "machine.h"
 #include "parts.h"
+#include "iteratormachine.h"
 
 Machine::~Machine()
 {
